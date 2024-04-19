@@ -1,3 +1,9 @@
-body {
+.Sofia {
+    
+    background-color: rgba(136, 38, 38, 0.363);
+    color: rgb(43, 138, 50);
+    text-align: center;
+    font-size: 10px;
     font-family: "Sofia", sans-serif;
+    display: inline;
   }
