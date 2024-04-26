@@ -23,6 +23,27 @@
   .menu2 a:hover{
     background-color: aqua;
   }
-  
+  .banner {
+    /* Define a altura do banner */
+    height: 300px;
+    /* Define a largura do banner */
+    width: 100%;
+    /* Define a imagem de fundo e ajusta a sua posição */
+    background: url('imagenscss/downloa1.jpg') no-repeat center center/cover;
+    /* Adiciona uma sombra ao redor do banner */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Define o texto como branco */
+    color: rgb(5, 253, 38);
+    /* Centraliza o texto verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Define uma fonte e seu tamanho */
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    /* Adiciona uma sombra ao texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 
  
