@@ -46,6 +46,8 @@
 }
   .fundimg{
     background: url('imagenscss/fotobambu.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 90px;
 
 }
 
