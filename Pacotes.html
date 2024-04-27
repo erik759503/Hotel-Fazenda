@@ -6,7 +6,11 @@
     <title>Pacotes</title>
     <link rel="stylesheet" href="css.css">
     <style>
-        h2{
+       section{
+        background-image: ;
+       }
+
+       h2{
             font-family: cursive;
             background-color: rgb(9, 117, 5);
             color: rgb(82, 255, 14);
@@ -21,32 +25,50 @@
             font-size: unset;
             color: rgb(13, 17, 13);
             padding: 10px;
-          
         }
-        #ladoalado{
-          display: flex;
-         float: left;
-         padding: 10px;
+        .texto ::after {
+        content: 'texto';
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+        font-size: 12px;
+        color: #be0000;
+        text-align: left;
+        }
+
+        .img::after {
+        content: 'texto';
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+        font-size: 12px;
+        color: #666;
+        text-align: left;
         }
     </style>
 </head>
   <body>       
     <center> 
       <h2>Pacotes</h2>
-         <p>Faça já sua reserva!</p>
+        <p>Faça já sua reserva!</p>
+        <hr>
+          <img src="./imagenshf/promoces.png" width="550" height="400">
           <hr>
-           <img src="./imagens hf/promoces.png" width="550" height="400">
-          <hr>
-          <div id="ladoalado">
-                <img src="./imagens hf/meio-semana-hotel-fazenda-40OFF.webp" width="300px" height="250px">
-                <br>
-                <p>Promocao meio de semana!
-                </p>
-                <p>Aproveite do dia 12/03 até o dia 12/04 
-                </p>
-
+          <div>
+          <div id="img::after">
+            <img src="./imagenshf/meio-semana-hotel-fazenda-40OFF.webp" width="300px" height="250px">
           </div>
-           <div id="ladoalado"><img src="./imagens hf/images.jpg" width="300px" height="250px">
-            </div>
+           <div>
+            <p class="texto ::after">Promoção meio de semana!</p>
+             <br>
+            <p class="texto ::after">Aproveite nossa promoção do dia 12/03 até o dia 12/04</p>
+           </div>
+           <div id="img:: after">
+            <img src="./imagenshf/images.jpg" width="300px" height="250px">
+           </div>
+          </div>
+
     </center>
-   </body>
+          
+  </body>
+  </html>
