@@ -15,11 +15,11 @@
             font-family: cursive;
             background-color: rgb(9, 117, 5);
             color: rgb(82, 255, 14);
-            padding: 10px;
+            padding: 5px;
             width: 100%;
-            box-sizing: border-box;
-            margin: 0;
-            border-radius: 5px;
+            box-sizing: content-box;
+            margin: 0px;
+            border-radius: 10px;
         }
         p{
             font-family: cursive;
@@ -27,7 +27,18 @@
             color: rgb(0, 0, 0);
             padding: 10px;
         }
-       
+        .imagem-container {
+         display: flex;
+         justify-content: center;
+        }
+       .imagem-container img {
+        text-align: center;
+        margin: 0 20px;
+       }
+       .imagem-container p{
+        margin: 10px;
+       }
+      
     </style>
 </head>
   <body class="fundimg">       
@@ -35,9 +46,23 @@
       <h2>Pacotes</h2>
         <p>Faça já sua reserva!</p>
         <hr>
-          <img src="./imagenshf/promoces.png" width="550" height="400">
+        <img src="./imagenshf/promoces.png" width="550" height="400">
     </center>
-    <img src="" >
+    <div class="imagem-container">
+      <div>
+       <img src="./imagenshf/site-fonda-baixa-temporada-2.jpg" alt="img" height="260" width="330">
+        <p>legenda</p>
+      </div>
+      <div>
+       <img src="./imagenshf/meio-semana-hotel-fazenda-40OFF.webp" alt="img" height="260" width="330">
+        <p>legenda 2</p>
+      </div>
+      <div>
+       <img src="./imagenshf/images.jpg" alt="img" height="260" width="330">
+        <p>legenda</p>
+      </div>
+    </div>
+
     
           
   </body>
