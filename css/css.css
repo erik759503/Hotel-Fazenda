@@ -50,6 +50,15 @@
     padding: 90px;
 
 }
-
+.titulo{
+  font-family: cursive;
+   background-color: rgb(9, 117, 5);
+  color: rgb(82, 255, 14);
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  border-radius: 5px;
+}
 
  
