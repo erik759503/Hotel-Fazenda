@@ -6,39 +6,55 @@
     <title>Pacotes</title>
     <link rel="stylesheet" href="css.css">
     <style>
-       .fundimg{
-    background: url('imagenshf/fotobambu.jpg') no-repeat center center/cover;
-    text-align: center;
-    padding: 90px;
-    }
-       h2{
-            font-family: cursive;
-            background-color: rgb(9, 117, 5);
-            color: rgb(82, 255, 14);
-            padding: 5px;
-            width: 100%;
-            box-sizing: content-box;
-            margin: 0px;
-            border-radius: 10px;
-        }
-        p{
-            font-family: cursive;
-            font-size: unset;
-            color: rgb(0, 0, 0);
-            padding: 10px;
-        }
-        .imagem-container {
-         display: flex;
-         justify-content: center;
-        }
-       .imagem-container img {
+      .fundimg{
+        background: url('imagenshf/fotobambu.jpg') no-repeat center center/cover;
         text-align: center;
-        margin: 0 20px;
-       }
-       .imagem-container p{
-        margin: 10px;
-       }
+        padding: 90px;
+    }
+      h2{
+       font-family: cursive;
+       background-color: rgb(9, 117, 5);
+       color: rgb(82, 255, 14);
+       padding: 5px;
+       width: 100;
+       box-sizing: content-box;
+       margin: 0px;
+       border-radius: 10px;
+    }
+      p{
+       font-family: cursive;
+       font-size: unset;
+       color: rgb(0, 0, 0);
+       padding: 10px;
+    }  
       
+    .imagem-container {
+       display: flex;
+       justify-content: center;
+    }
+      .imagem-container img {
+       text-align: center;
+       margin: 0 20px;
+       border-radius: 50px;
+       box-shadow: 5px 5px 30px rgba(0,0,0,1);
+       transition: all 0.3s linear;     
+    }
+      .imagem-container p{
+       color: #000000;
+       font-size: 16px;
+       text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    }
+      .imagem-container img:hover{
+       box-shadow: 0 0 8px #000000;
+       border: solid 5px rgb(125, 202, 25);
+    }
+    footer {
+    background-color: #21801e;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
     </style>
 </head>
   <body class="fundimg">       
@@ -49,21 +65,24 @@
         <img src="./imagenshf/promoces.png" width="550" height="400">
     </center>
     <div class="imagem-container">
-      <div>
-       <img src="./imagenshf/site-fonda-baixa-temporada-2.jpg" alt="img" height="260" width="330">
-        <p>legenda</p>
-      </div>
-      <div>
+     <div>
+      <img src="./imagenshf/promocao_chale_trilha.jpg" alt="img" height="260" width="330">
+       <p> Diária chalé e trilha! <br>(Promoção casal!)</p>
+       <p>Por apenas 200,00 reais!</p>
+     </div>
+       <div>
        <img src="./imagenshf/meio-semana-hotel-fazenda-40OFF.webp" alt="img" height="260" width="330">
-        <p>legenda 2</p>
+        <p>Pacote meio de semana, 4 diárias tem 40% off! <br> (Crianças até 12 anos não pagam entrada!)</p>
+        <p>Por apenas 100 reais por pessoa!</p>
       </div>
-      <div>
-       <img src="./imagenshf/images.jpg" alt="img" height="260" width="330">
-        <p>legenda</p>
+        <div>
+        <img src="./imagenshf/site-fonda-baixa-temporada-2.jpg" alt="img" height="260" width="330">
+        <p>Pacote baixa temporada, 20% off!<br>(Escolha seu período!)</p>
+        <p>Por apenas 119,00 reais por pessoa!</p>
       </div>
     </div>
-
-    
-          
+    <footer>
+      <p> Para mais informações ou reservas ligue (00)000-0000</p>
+  </footer>      
   </body>
   </html>
