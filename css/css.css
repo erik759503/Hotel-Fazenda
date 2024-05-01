@@ -1,22 +1,23 @@
   .Sofia {
-    
-    background-color: rgba(136, 38, 38, 0.363);
-    color: rgb(43, 138, 50);
+    background-color: rgba(255, 255, 255, 0.363);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 100px;
     font-family: "Sofia", sans-serif;
     display: inline;
   }
+
   nav {
-    background-color:green;
+    background-color: green;
     display: flex;
     text-align: center;
     justify-content: space-between;
     align-items: center;
-    position:relative ;
+    position: relative;
     height: 100px;
- 
+
   }
+
   nav a {
     color: greenyellow;
     text-decoration: none;
@@ -24,8 +25,9 @@
     transition: background-color 0.3;
 
   }
-  nav a:hover{
-    background-color: rgb(138, 243, 0);
+
+  nav a:hover {
+    background-color: rgb(18, 175, 175);
   }
 
   nav button {
@@ -36,15 +38,14 @@
 
   }
 
-  /* Efeito hover para os botões */
   nav button:hover {
     background-color: rgba(255, 1, 1, 0.1);
   }
-  
+
   nav img {
     height: 100px;
     width: auto;
-}
+  }
 
   .banner {
     /* Define a altura do banner */
@@ -67,28 +68,28 @@
     /* Adiciona uma sombra ao texto */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .fundimg{
+
+  .fundimg {
     background: url('imagenscss/fotobambu.jpg') no-repeat center center/cover;
-    text-align: center;
-   padding: 90px;
+    text-align: justify;
+    padding: 90px;
   }
 
-  .titulo{
-  font-family: cursive;
-   background-color: rgb(9, 117, 5);
-  color: rgb(82, 255, 14);
-  padding: 10px;
-  width: 100%;
-  box-sizing: border-box;
-  margin: 0;
-  border-radius: 5px;
+  .titulo {
+    font-family: cursive;
+    background-color: rgb(9, 117, 5);
+    color: rgb(82, 255, 14);
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border-radius: 5px;
   }
 
   footer {
-    background-color: #2f837f; 
+    background-color: #2f837f;
     color: #fff;
     padding: 10px;
     text-align: center;
     margin-top: auto;
-}
- 
+  }
