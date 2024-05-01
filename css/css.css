@@ -3,13 +3,19 @@
     background-color: rgba(136, 38, 38, 0.363);
     color: rgb(43, 138, 50);
     text-align: center;
-    font-size: 10px;
+    font-size: 100px;
     font-family: "Sofia", sans-serif;
     display: inline;
   }
   nav {
     background-color:green;
+    display: flex;
     text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    position:relative ;
+    height: 100px;
+ 
   }
   nav a {
     color: greenyellow;
@@ -23,16 +29,22 @@
   }
 
   nav button {
-    font-size: 18px;
+    font-size: 100px;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
+
   }
 
   /* Efeito hover para os botões */
   nav button:hover {
     background-color: rgba(255, 1, 1, 0.1);
   }
+  
+  nav img {
+    height: 100px;
+    width: auto;
+}
 
   .banner {
     /* Define a altura do banner */
@@ -40,7 +52,7 @@
     /* Define a largura do banner */
     width: 100%;
     /* Define a imagem de fundo e ajusta a sua posição */
-    background: url('imagenscss/Design\ sem\ nome.png') no-repeat center center/cover;
+    background: url('imagenscss/bannercabana.png') no-repeat center center/cover;
     /* Adiciona uma sombra ao redor do banner */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     /* Define o texto como branco */
