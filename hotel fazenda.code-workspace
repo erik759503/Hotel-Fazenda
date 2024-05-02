@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../hotel fazenda"
+		},
+		{
+			"path": "../htmls"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "htmls"
+	}
+}
