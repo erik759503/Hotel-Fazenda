@@ -1,35 +1,59 @@
   .Sofia {
-    
-    background-color: rgba(136, 38, 38, 0.363);
-    color: rgb(43, 138, 50);
+    background-color: rgba(255, 255, 255, 0.363);
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
     font-family: "Sofia", sans-serif;
     display: inline;
   }
-  .menu {
-    background-color:green;
-    padding: 10px 0;
+
+  nav {
+    background-color: green;
+    display: flex;
     text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 100px;
+
   }
-  .menu1 a {
+
+  nav a {
     color: greenyellow;
-    text-decoration: aqua;
-    padding: 0 50px;
-    margin: 0 50px;
+    text-decoration: none;
+    margin: 5px;
     transition: background-color 0.3;
 
   }
-  .menu2 a:hover{
-    background-color: aqua;
+
+  nav a:hover {
+    background-color: rgb(18, 175, 175);
   }
+
+  nav button {
+    font-size: 100px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+  }
+
+  nav button:hover {
+    background-color: rgba(255, 1, 1, 0.1);
+  }
+
+  nav img {
+    height: 100px;
+    width: auto;
+  }
+
   .banner {
     /* Define a altura do banner */
     height: 300px;
     /* Define a largura do banner */
     width: 100%;
     /* Define a imagem de fundo e ajusta a sua posição */
-    background: url('imagenscss/Design\ sem\ nome.png') no-repeat center center/cover;
+    background: url('imagenscss/bannercabana.png') no-repeat center center/cover;
     /* Adiciona uma sombra ao redor do banner */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     /* Define o texto como branco */
@@ -43,22 +67,33 @@
     font-size: 24px;
     /* Adiciona uma sombra ao texto */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-  .fundimg{
+  }
+
+  .fundimg {
     background: url('imagenscss/fotobambu.jpg') no-repeat center center/cover;
     text-align: center;
     padding: 90px;
+  }
 
-}
-.titulo{
-  font-family: cursive;
-   background-color: rgb(9, 117, 5);
-  color: rgb(82, 255, 14);
-  padding: 10px;
-  width: 100%;
-  box-sizing: border-box;
-  margin: 0;
-  border-radius: 5px;
-}
+  .titulo {
+    font-family: cursive;
+    background-color: rgb(9, 117, 5);
+    color: rgb(82, 255, 14);
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border-radius: 5px;
+  }
 
-    
+  footer {
+    background-color: #2f837f;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+  }
+
+  .content {
+    padding: 20px;
+  }
