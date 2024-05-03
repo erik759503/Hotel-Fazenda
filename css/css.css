@@ -87,13 +87,19 @@
   }
 
   footer {
-    background-color: #2f837f;
+    background-color: rgb(9, 117, 5);
     color: #fff;
     padding: 10px;
     text-align: center;
     margin-top: auto;
+    border-radius: 10px;
   }
 
   .content {
     padding: 20px;
+  }
+
+  .formimg img {
+    height: 250px;
+    width: auto;
   }
