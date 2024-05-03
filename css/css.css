@@ -98,3 +98,8 @@
   .content {
     padding: 20px;
   }
+
+  .formimg img {
+    height: 250px;
+    width: auto;
+  }
