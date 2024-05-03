@@ -99,26 +99,28 @@
     background-size: cover;
   }
 
-  .imagem-container {
+  .imagem {
     display: flex;
     justify-content: center;
   }
 
-  .imagem-container img {
+  .imagem img {
     text-align: center;
     margin: 0 20px;
     border-radius: 50px;
     box-shadow: 5px 5px 30px rgb(0, 0, 0);
     transition: all 0.3s linear;
+    height: 200px;
+    width: auto;
   }
 
-  .imagem-container p {
+  .imagem p {
     color: #ffffff;
     font-size: 20px;
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
   }
 
-  .imagem-container img:hover {
+  .imagem img:hover {
     box-shadow: 0 0 8px rgb(207, 198, 63);
     border: solid 5px rgb(255, 255, 255);
   }
